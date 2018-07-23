@@ -1,0 +1,19 @@
+.about {
+  padding: 50px;
+  background-color: #f6f6f6;
+  border-top: 1px solid #ebebeb;
+}
+
+.about > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+}

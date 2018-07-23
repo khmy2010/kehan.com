@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+  background-color: white;
+  top: 0;
+  left: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.transparent {
+  color: black;
+  background-color: transparent;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 20px;
+  color: black;
+}
+
+.header .current {
+  font-weight: 700;
+  /* color: #663399; */
+}
