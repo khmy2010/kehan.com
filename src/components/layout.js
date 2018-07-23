@@ -22,7 +22,7 @@ class Layout extends Component {
   }
 
   handleScroll = () => {
-    this.setState({ scrolled: window.scrollY > 0 ? true : false })
+    this.setState({ scrolled: window.scrollY > 30 ? true : false })
   }
 
   render() {
