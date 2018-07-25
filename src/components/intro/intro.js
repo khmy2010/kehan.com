@@ -9,14 +9,14 @@ const intro = () => {
   return (
     <div className="intro-hero">
       <div className="intro-mask" />
-      <div className="intro-text">
+      <div className="intro-content">
         <h1>Ke Han</h1>
-        <p>Making code as life</p>
-      </div>
-      <div className="intro-social">
-        <Github />
-        <Facebook />
-        <Linkedin />
+        <p>part time developer, full time human</p>
+        <div className="intro-social">
+          <Github />
+          <Facebook />
+          <Linkedin />
+        </div>
       </div>
     </div>
   )

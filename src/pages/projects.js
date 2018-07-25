@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Link from 'gatsby-link'
 
 import Layout from '../components/layout'
+import Intro from '../components/projectsIntro/intro'
 
 const projects = () => {
   return (
@@ -25,7 +26,7 @@ const projects = () => {
       `}
       render={data => (
         <Layout>
-          <h1>alo world</h1>
+          <Intro />
           {data.allMarkdownRemark.edges.map(project => (
             <div key={project.node.id}>
               <h2>{project.node.frontmatter.title}</h2>

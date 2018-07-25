@@ -12,7 +12,7 @@ const header = ({ scrolled, listenScroll }) => {
 
   return (
     <div className={classes}>
-      <Link activeClassName="current" to="/">
+      <Link exact activeClassName="current" to="/">
         About
       </Link>
 

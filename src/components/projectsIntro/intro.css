@@ -1,0 +1,21 @@
+.projects-hero {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.projects-hero > img {
+  max-width: 700px;
+  height: auto;
+}
+
+.projects-hero-text {
+  text-align: left;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.projects-hero-text > h2 {
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+}

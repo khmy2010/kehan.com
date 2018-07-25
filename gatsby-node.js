@@ -4,6 +4,7 @@ const path = require('path')
 //https://github.com/gatsbyjs/gatsby-starter-blog/blob/v2/gatsby-node.js
 //https://www.gatsbyjs.org/tutorial/part-seven/
 //https://using-remark.gatsbyjs.org/
+//draw this as hero: https://pillow.codes/
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions

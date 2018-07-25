@@ -22,18 +22,18 @@
   height: 100%;
 }
 
-.intro-text {
+.intro-content {
   z-index: 3;
   color: white;
   text-align: center;
 }
 
-.intro-text h1 {
+.intro-content h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.5rem;
 }
 
-.intro-text p {
+.intro-content p {
   font-family: 'Open Sans Condensed', cursive;
   font-size: 2rem;
   font-weight: 300;
@@ -42,4 +42,9 @@
 
 .intro-social {
   z-index: 10;
+}
+
+.intro-social > a {
+  margin-left: 5px;
+  margin-right: 5px;
 }

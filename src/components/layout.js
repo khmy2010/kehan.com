@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
+import './root.css'
 
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
@@ -46,14 +47,15 @@ class Layout extends Component {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
-            <div>
+            <div className="wrapper">
               <Header
                 scrolled={this.props.listenScroll ? this.state.scrolled : false}
                 listenScroll={this.props.listenScroll}
               />
               {this.props.children}
-              <Footer />
+              <div className="push" />
             </div>
+            <Footer />
           </>
         )}
       />
