@@ -6,7 +6,6 @@ import collections from './books.json'
 import Book from './book'
 
 const books = () => {
-  console.log(collections)
   return (
     <section className="books section-content">
       <h1>What I Read</h1>

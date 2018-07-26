@@ -48,6 +48,10 @@ class Layout extends Component {
                 href="./favicon.ico"
                 sizes="16x16"
               />
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no"
+              />
             </Helmet>
             <div className="wrapper">
               <Header

@@ -8,8 +8,12 @@
   grid-column-gap: 10px;
 }
 
-@media(max-width: 600px) {
-    .books-container {
-        display: block;
-    }
+@media (max-width: 600px) {
+  .books-container {
+    display: block;
+  }
+}
+
+.books {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
