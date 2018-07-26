@@ -40,13 +40,15 @@ class Layout extends Component {
         `}
         render={data => (
           <>
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
-              ]}
-            />
+            <Helmet>
+              <title>Ke Han</title>
+              <link
+                rel="icon"
+                type="image/png"
+                href="./favicon.ico"
+                sizes="16x16"
+              />
+            </Helmet>
             <div className="wrapper">
               <Header
                 scrolled={this.props.listenScroll ? this.state.scrolled : false}

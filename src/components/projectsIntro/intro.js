@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 
-import Code from './code'
+// import Code from './code'
 import CodePNG from './code.png'
 
 const intro = () => (

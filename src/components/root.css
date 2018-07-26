@@ -18,3 +18,21 @@ footer,
 .push {
   height: 120px; /* .push must be the same height as .footer */
 }
+
+.section-content {
+  padding: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title-helper {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5b5e6d;
+  font-weight: 400;
+}
+
+.strong {
+  font-weight: 700;
+}

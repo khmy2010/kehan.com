@@ -1,0 +1,24 @@
+.book {
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  /* padding: 10px; */
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.book-content {
+  padding: 0 10px;
+  color: #666666;
+}
+
+.book-title {
+  margin-bottom: 13px;
+  background-color: #3273dc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.book p {
+  margin-bottom: 5px;
+}
