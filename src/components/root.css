@@ -24,6 +24,10 @@ footer,
   font-family: 'Open Sans', sans-serif;
 }
 
+.center {
+  text-align: center;
+}
+
 .title-helper {
   margin-bottom: 2rem;
   font-size: 1.25rem;

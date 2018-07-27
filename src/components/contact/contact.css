@@ -38,6 +38,15 @@
   font-style: italic;
 }
 
+.contact-thanks {
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.contact-thanks > img {
+  margin: 0;
+}
+
 @media (max-width: 700px) {
   .contact {
     display: block;

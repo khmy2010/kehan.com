@@ -37,3 +37,16 @@
 .skills-list > span.dusty {
   color: #4f5b93;
 }
+
+@media (max-width: 600px) {
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 0.5px solid rgba(27, 104, 163);
+  }
+
+  .skills-list > span,
+  .skills-list > span:first-child {
+    margin: 8px 10px;
+  }
+}

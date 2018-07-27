@@ -7,6 +7,7 @@ import Github from '../social/github'
 import Linkedin from '../social/linkedin'
 
 import me from './me.jpg'
+import thanks from './thanks.svg'
 
 const contact = () => (
   <section className="contact section-content">
@@ -36,6 +37,9 @@ const contact = () => (
         <Facebook />
         <Github />
         <Linkedin />
+      </div>
+      <div className="contact-thanks">
+        <img src={thanks} alt="thanks" />
       </div>
       <p className="contact-wish">Best wishes, Ke Han</p>
     </div>
