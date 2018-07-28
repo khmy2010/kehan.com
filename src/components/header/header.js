@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 import Toggle from './toggle'
-// import Backdrop from '../backdrop/Backdrop'
-import Facebook from '../social/facebook'
 
 import './header.css'
 

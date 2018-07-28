@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-catch-links',
     `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-source-filesystem',
@@ -29,5 +28,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Ke Han',
+        short_name: 'Ke Han',
+        start_url: '/',
+        background_color: '#3273dc',
+        theme_color: '#a2466c',
+        display: 'minimal-ui',
+        icon: 'src/images/icon.png', // This path is relative to the root of the site.
+      },
+    },
   ],
 }

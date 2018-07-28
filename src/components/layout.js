@@ -51,12 +51,6 @@ class Layout extends Component {
           <>
             <Helmet>
               <title>Ke Han</title>
-              <link
-                rel="icon"
-                type="image/png"
-                href="./favicon.ico"
-                sizes="16x16"
-              />
               <meta
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"

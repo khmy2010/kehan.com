@@ -5,7 +5,7 @@
   "author": "See Ke Han <kehan.see@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.0-beta.61",
-    "gatsby-plugin-catch-links": "^1.0.24",
+    "gatsby-plugin-manifest": "^2.0.2-beta.3",
     "gatsby-plugin-react-helmet": "^3.0.0-beta.4",
     "gatsby-plugin-sharp": "^2.0.0-beta.7",
     "gatsby-remark-copy-linked-files": "^2.0.0-beta.3",
