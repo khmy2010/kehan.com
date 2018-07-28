@@ -11,7 +11,7 @@ const header = ({ scrolled, listenScroll }) => {
   classes = classes.join(' ')
 
   return (
-    <div className={classes}>
+    <nav className={classes}>
       <Link exact activeClassName="current" to="/">
         About
       </Link>
@@ -20,14 +20,10 @@ const header = ({ scrolled, listenScroll }) => {
         Projects
       </Link>
 
-      <Link activeClassName="current" to="/hobbies">
-        Hobbies
-      </Link>
-
       <Link activeClassName="current" to="/cv">
         CV
       </Link>
-    </div>
+    </nav>
   )
 }
 

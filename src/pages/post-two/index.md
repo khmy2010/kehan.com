@@ -6,8 +6,7 @@ title: "My Second Gatsby Post"
 
 # Najib
 
-![Chinese Salty Egg](abc.jpeg)
-&lt;img src="abc.jpeg" alt=""&gt;
+![Chinese Salty Egg](kch.jpg)
 
 KUALA LUMPUR (THE STAR/ASIA NEWS NETWORK) - It was a sober press conference on what was seized in raids that were part of the police investigation into 1Malaysia Development Berhad (1MDB).
 

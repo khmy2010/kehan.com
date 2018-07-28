@@ -5,7 +5,7 @@ import './skills.css'
 import Set from './set'
 
 const skills = () => (
-  <section className="skills section-content">
+  <section className="skills section-content" id="skills">
     <h1>What I do</h1>
     <h2 className="title-helper">
       As a developer, I created things with the helps of following technology:
