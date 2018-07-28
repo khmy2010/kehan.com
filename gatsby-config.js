@@ -21,6 +21,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 740,
+              showCaptions: true,
             },
           },
           `gatsby-remark-copy-linked-files`,
@@ -28,6 +29,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

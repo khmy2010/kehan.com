@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
 .blog-content {
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 130px;
   margin-top: 70px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
 }
 
+.blog-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #323232;
+}
+
 .blog-content p {
-  color: #232323;
+  color: #414549;
   letter-spacing: -0.001em;
   line-height: 1.6;
   word-break: break-word;
   word-wrap: break-word;
+  font-size: 1rem;
+}
+
+.blog-content figcaption {
+  color: #757575;
+  font-size: 0.8rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 .blog-content a {
