@@ -6,10 +6,12 @@ import './root.css'
 
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
+import Backdrop from '../components/backdrop/backdrop'
 
 class Layout extends Component {
   state = {
     scrolled: false,
+    mobileHeaderActive: false,
   }
 
   componentDidMount() {
@@ -24,6 +26,13 @@ class Layout extends Component {
 
   handleScroll = () => {
     this.setState({ scrolled: window.scrollY > 30 ? true : false })
+  }
+
+  toggleHeader = () => {
+    console.log('header')
+    this.setState((prevState, _) => {
+      return { mobileHeaderActive: !prevState.mobileHeaderActive }
+    })
   }
 
   render() {
@@ -54,9 +63,15 @@ class Layout extends Component {
               />
             </Helmet>
             <div className="wrapper">
+              <Backdrop
+                show={this.state.mobileHeaderActive}
+                clicked={this.toggleHeader}
+              />
               <Header
                 scrolled={this.props.listenScroll ? this.state.scrolled : false}
                 listenScroll={this.props.listenScroll}
+                toggleHeader={this.toggleHeader}
+                active={this.state.mobileHeaderActive}
               />
               {this.props.children}
               <div className="push" />
