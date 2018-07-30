@@ -4,7 +4,7 @@ import Link from './link'
 
 const linkedin = props => (
   <Link
-    url="https://www.linkedin.com/in/yilingchen405/"
+    url="https://www.linkedin.com/in/seekehan/"
     title="View my professional profile at Linkedin"
   >
     <svg

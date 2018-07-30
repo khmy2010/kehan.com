@@ -1,0 +1,9 @@
+.tech-tag {
+  padding: 6px 8px;
+  margin: 5px 8px 5px 0;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}

@@ -2,6 +2,7 @@
 path: "/najib"
 date: "2018-04-10"
 title: "My Second Gatsby Post"
+featuredImage: "./kch.jpg"
 ---
 
 # Najib
