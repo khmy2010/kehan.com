@@ -4,10 +4,19 @@
   margin-bottom: 30px;
 }
 
-.article-content > h3 {
+.link-header {
   text-align: center;
   color: #424242;
   letter-spacing: 0.25px;
+}
+
+.link-header > a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.link-header > a:hover {
+  color: #4285f4;
 }
 
 .article-content {

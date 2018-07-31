@@ -5,36 +5,28 @@ import Img from 'gatsby-image'
 
 import './preview.css'
 
-import Tag from './tag/tag'
+// import Tags from './tags'
+// import tag from './tag/tag'
+
+import Tags from '../tags/tags'
 
 const preview = ({ project }) => {
   const { frontmatter } = project.node
-  console.log(frontmatter)
+  const abstract = frontmatter.abstract || project.node.excerpt || ''
+  const tags = frontmatter.tags || []
+
   return (
     <article className="article">
       <div className="article-body">
         <div className="article-featured-image">
-          <Img
-            fluid={project.node.frontmatter.featuredImage.childImageSharp.fluid}
-          />
+          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
         </div>
         <div className="article-content">
-          <h3>{frontmatter.title}</h3>
-          <p className="article-abstract">
-            Delivery tracking application intended to be a one-stop destination
-            for all your packages. Input your tracking number and the backend
-            calls the approriate API (USPS, UPS, etc). It displays the current
-            status of your deliveries while periodically polling for updates in
-            the background until they've reached their destination.
-          </p>
-          <div className="article-tags">
-            <Tag item="React" />
-            <Tag item="Angular" />
-            <Tag item="Heroku" />
-            <Tag item="MongoDB" />
-            <Tag item="Jest" />
-            <Tag item="Puppeteer" />
-          </div>
+          <h3 className="link-header">
+            <Link to={frontmatter.path}>{frontmatter.title}</Link>
+          </h3>
+          <p className="article-abstract">{abstract}</p>
+          <Tags list={tags} />
           <Link className="link-button" to={frontmatter.path}>
             Read more ...
           </Link>

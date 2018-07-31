@@ -13,6 +13,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         excerpt_separator: `<!-- end -->`,

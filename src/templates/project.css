@@ -11,6 +11,29 @@
   min-height: 100%;
 }
 
+.blog-content h1 {
+  font-size: 2rem;
+}
+
+#article-title {
+  font-size: 2.5rem;
+}
+
+.article-abstract {
+  color: rgb(65, 69, 73);
+  line-height: 34px;
+  font-size: 1.1rem;
+}
+
+.blog-article-intro {
+  margin-bottom: 2.2rem;
+  border-bottom: 1px solid rgba(53, 56, 57, 0.3);
+}
+
+.blog-article-intro > p {
+  padding: 0.8rem 0;
+}
+
 .blog-content h1,
 h2,
 h3,
@@ -66,4 +89,9 @@ h6 {
 .blog-content-header {
   color: rgba(0, 0, 0, 0.54);
   margin-bottom: 30px;
+}
+
+.article-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
 }

@@ -3,6 +3,8 @@ path: "/najib"
 date: "2018-04-10"
 title: "My Second Gatsby Post"
 featuredImage: "./kch.jpg"
+tags: ["React", "Redux", "Thunk", "Heroku"]
+abstract: "Reservations application for booking travel accommodations. I built out the UI for a similar listings recommendations engine. I focused on keeping the design responsive and engaging for the user, adding features such as allowing the user to save listings to their favorites as they browse. I implemented modern CSS features like a carousel and modal styling with React."
 ---
 
 # Najib

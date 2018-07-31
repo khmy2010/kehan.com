@@ -15,10 +15,13 @@ const projects = () => {
             edges {
               node {
                 id
+                excerpt
                 frontmatter {
                   path
                   title
                   date
+                  abstract
+                  tags
                   featuredImage {
                     childImageSharp {
                       fluid(maxWidth: 640) {
@@ -35,14 +38,7 @@ const projects = () => {
       render={data => (
         <Layout>
           <div className="projects-content">
-            <div className="section-intro">Blah Blah Blah</div>
             {data.allMarkdownRemark.edges.map(project => (
-              // <div key={project.node.id}>
-              //   <h2>{project.node.frontmatter.title}</h2>
-              //
-
-              //   />
-              // </div>
               <Preview key={project.node.id} project={project} />
             ))}
           </div>

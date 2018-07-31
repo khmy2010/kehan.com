@@ -1,7 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
+
 import Layout from '../components/layout'
+import Tags from '../components/tags/tags'
+import Author from '../components/author/author'
 
 import './project.css'
 
@@ -20,7 +23,19 @@ export default function project({ data }) {
           <span className="blog-dot-divider" />
           <span>{timeToRead} min read</span>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div className="blog-article">
+          <div className="blog-article-intro">
+            <h1 id="article-title">{frontmatter.title}</h1>
+            <p>
+              <i className="article-abstract">{frontmatter.abstract}</i>
+            </p>
+          </div>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <Tags list={frontmatter.tags} klass="gray-tag" />
+          <div className="article-footer">
+            <Author />
+          </div>
+        </div>
       </div>
     </Layout>
   )
@@ -35,6 +50,8 @@ export const pageQuery = graphql`
         path
         title
         date
+        abstract
+        tags
       }
     }
   }
