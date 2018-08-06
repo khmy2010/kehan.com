@@ -1,6 +1,6 @@
 .article-author {
   display: flex;
-  align-content: center;
+  align-items: center;
 }
 
 .author-info {
