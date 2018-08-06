@@ -1,0 +1,28 @@
+.not-found-content {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 120px;
+}
+
+.not-found-image {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.not-found-content a {
+  text-decoration: none;
+  color: #2e7eed;
+}
+
+@media (max-width: 480px) {
+  .not-found-image {
+    margin-bottom: 30px;
+  }
+
+  .not-found-content p {
+    line-height: 32px;
+  }
+}
