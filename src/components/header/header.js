@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 import Toggle from './toggle'
+import CustomLink from '../social/link'
 
 import './header.css'
 
@@ -9,6 +10,8 @@ class Header extends Component {
   render() {
     let classes = ['header']
     const { scrolled, listenScroll } = this.props
+    const resume =
+      'https://drive.google.com/file/d/1yggn3QhEEVQ6HLswcen3dM_3qlE3gDAe/view'
 
     if ((listenScroll && !scrolled) || this.props.active)
       classes.push('transparent')
@@ -25,9 +28,9 @@ class Header extends Component {
             <Link activeClassName="current" to="/projects">
               Projects
             </Link>
-            <Link activeClassName="current" to="/cv">
-              CV
-            </Link>
+            <CustomLink url={resume} title="My Resume">
+              Resume
+            </CustomLink>
           </div>
         </div>
       </nav>
