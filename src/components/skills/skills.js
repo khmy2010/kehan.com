@@ -19,7 +19,7 @@ const skills = () => (
       <Set
         klass="back-end"
         category="Back End"
-        list={['Node', 'MongoDB', 'GraphQL', 'Express']}
+        list={['Node', 'MongoDB', 'Express']}
       />
       <Set klass="test" category="Test Framework" list={['Jest', 'Enzyme']} />
       <Set
@@ -30,7 +30,7 @@ const skills = () => (
       <Set
         klass="dusty"
         category="Dusty (need time to pick up)"
-        list={['PHP', 'C', 'C++', 'SuperTest']}
+        list={['PHP', 'C', 'C++', 'GraphQL', 'SuperTest']}
       />
     </div>
   </section>
