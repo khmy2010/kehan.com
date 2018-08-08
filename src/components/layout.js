@@ -29,7 +29,6 @@ class Layout extends Component {
   }
 
   toggleHeader = () => {
-    console.log('header')
     this.setState((prevState, _) => {
       return { mobileHeaderActive: !prevState.mobileHeaderActive }
     })
